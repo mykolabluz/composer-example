@@ -1,0 +1,21 @@
+{
+    "name": "mykola/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mykola Blyzniuk",
+            "email": "mukolakolia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mykola\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
